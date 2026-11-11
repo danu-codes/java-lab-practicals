@@ -1,0 +1,22 @@
+# Generated build output
+build/
+dist/
+target/
+
+# NetBeans private / user-specific
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Compiled files and program output
+*.class
+*.jar
+*.log
+gift_List.txt
+AS2023908.txt
+
+# OS files
+.DS_Store
+Thumbs.db
