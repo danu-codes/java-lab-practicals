@@ -1,18 +1,38 @@
-# Java Lab Practicals
+# Java OOP Lab Practicals ☕
 
-Java (Apache NetBeans) small systems built for Object-Oriented Programming 
+A collection of small, Object-Oriented Java systems built using **Apache NetBeans**. These projects serve as practical implementations of core Object-Oriented Programming (OOP) concepts, including inheritance, polymorphism, interfaces, and file I/O.
 
-Open any project folder in NetBeans (**File > Open Project**) and press **Run**.
+## 🚀 Getting Started
 
-## Projects
+### Prerequisites
+* **Java Development Kit (JDK)** 8 or higher
+* **Apache NetBeans IDE**
 
-| `BankingSystem` | Savings / current / "Rankekulu" child accounts, deposit & withdraw, gift list saved to a file |
-| `UniversityStudentSystem` | Undergraduate & postgraduate registration, marks, GPA and class evaluation |
-| `EmployeePaySlipSystem` | Permanent & temporary employees: EPF, ETF, PAYE tax and pay slip |
-| `PayableSystem` | Invoices, hourly, commission and base-plus-commission employees via a `Payable` interface |
-| `HospitalRoomBillingSystem` | Hospital rooms (AC / non-AC), patient registration, treatments and discharge billing |
-| `HospitalManagementSystem` | Doctors, nurses, patients and shift scheduling using inheritance and interfaces |
-| `CoffeeShopManagementSystem` | Menu, stock and customer orders |
-| `OnlineLibrarySystem` | Books, users and a library |
-| `CarRental` | Cars, tenants and rental cost |
-| `RetailSystem` | Products and discounted products (inheritance) |
+### How to Run
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
+2. Open Apache NetBeans.
+3. Navigate to **File > Open Project**.
+4. Select the specific project folder you want to run from the cloned repository.
+5. Click the **Run Project** button (or press `F6`) to execute the system.
+
+## 📂 Project Directory
+
+| Project Name | Key Features & Learning Outcomes |
+| :--- | :--- |
+| **`BankingSystem`** | Manages Savings, Current, and "Rankekulu" (child) accounts. Handles deposits, withdrawals, and file-based I/O for saving gift lists. |
+| **`UniversityStudentSystem`** | Handles undergraduate and postgraduate registration. Calculates marks, GPA, and evaluates degree class honors. |
+| **`EmployeePaySlipSystem`** | Differentiates permanent and temporary employees. Calculates EPF, ETF, PAYE tax, and generates detailed pay slips. |
+| **`PayableSystem`** | Demonstrates the `Payable` interface. Manages invoices alongside hourly, commission, and base-plus-commission employees. |
+| **`HospitalRoomBillingSystem`** | Manages AC/non-AC rooms, patient registration, treatment tracking, and final discharge billing calculations. |
+| **`HospitalManagementSystem`** | Utilizes deep inheritance and interfaces for doctor, nurse, and patient management, including shift scheduling. |
+| **`CoffeeShopManagementSystem`** | Tracks menu items, monitors stock/inventory, and processes active customer orders. |
+| **`OnlineLibrarySystem`** | Simulates core library operations, tracking books, registered users, and borrowing systems. |
+| **`CarRental`** | Models vehicles and tenants to calculate duration-based rental costs. |
+| **`RetailSystem`** | Showcases inheritance through standard product pricing and specialized discounted products. |
+
+## 🛠️ Built With
+* [Java](https://www.oracle.com/java/) - The core programming language
+* [Apache NetBeans](https://netbeans.apache.org/) - Development environment
